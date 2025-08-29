@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+
+    <!-- Clock ring -->
+    <path
+        android:name="clock_ring"
+        android:fillColor="#00000000"
+        android:strokeColor="#263238"
+        android:strokeWidth="1.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M12,2a10,10 0 1,1 0,20a10,10 0 1,1 0,-20" />
+
+    <!-- Clock hands -->
+    <path
+        android:name="hour_hand"
+        android:fillColor="#00000000"
+        android:strokeColor="#263238"
+        android:strokeWidth="1.6"
+        android:strokeLineCap="round"
+        android:pathData="M12,12 L12,7" />
+    <path
+        android:name="minute_hand"
+        android:fillColor="#00000000"
+        android:strokeColor="#263238"
+        android:strokeWidth="1.6"
+        android:strokeLineCap="round"
+        android:pathData="M12,12 L16,10" />
+
+    <!-- Torch handle (tilted) -->
+    <path
+        android:name="torch_handle"
+        android:fillColor="#FFB300"
+        android:pathData="M9,14 l5,5 l-2,2 l-5,-5 z" />
+
+    <!-- Torch head -->
+    <path
+        android:name="torch_head"
+        android:fillColor="#FFB300"
+        android:pathData="M14,13 l3,-3 l2,2 l-3,3 z" />
+
+    <!-- Torch lens accent -->
+    <path
+        android:name="torch_lens"
+        android:fillColor="#FFA000"
+        android:pathData="M17,10 l1.5,-1.5 l2,2 L19,12 z" />
+
+    <!-- Light rays -->
+    <path
+        android:name="ray1"
+        android:fillColor="#00000000"
+        android:strokeColor="#FFA000"
+        android:strokeWidth="1.2"
+        android:strokeLineCap="round"
+        android:pathData="M20,8 L22,6" />
+    <path
+        android:name="ray2"
+        android:fillColor="#00000000"
+        android:strokeColor="#FFA000"
+        android:strokeWidth="1.2"
+        android:strokeLineCap="round"
+        android:pathData="M21,11 L23,11" />
+    <path
+        android:name="ray3"
+        android:fillColor="#00000000"
+        android:strokeColor="#FFA000"
+        android:strokeWidth="1.2"
+        android:strokeLineCap="round"
+        android:pathData="M18,7 L18,5" />
+</vector>

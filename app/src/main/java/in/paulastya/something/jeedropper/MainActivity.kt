@@ -28,9 +28,6 @@ class MainActivity : AppCompatActivity() {
     private lateinit var timeInput: EditText
     private lateinit var toggleButton: ToggleButton
 
-
-
-    private var previousValue: Int = 0
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
