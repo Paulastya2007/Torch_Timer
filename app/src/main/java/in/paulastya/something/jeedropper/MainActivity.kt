@@ -24,7 +24,7 @@ class MainActivity : AppCompatActivity() {
         try {
             val cameraManager = getSystemService(Context.CAMERA_SERVICE) as CameraManager
             val cameraId = cameraManager.cameraIdList[0] // Assuming back camera has flash
-                cameraManager.setTorchMode(cameraId, isTorchOn)
+            cameraManager.setTorchMode(cameraId, isTorchOn)
 
         } catch (e: CameraAccessException) {
             e.printStackTrace()

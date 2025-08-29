@@ -1,3 +1,11 @@
 <resources>
-    <string name="app_name">Something</string>
+    <string name="app_name">Torch Timer</string>
+    <string name="torch_timer_title">Torch Timer</string>
+    <string name="enter_time_hint">Enter time in seconds</string>
+    <string name="torch_on_text">Torch ON</string>
+    <string name="torch_off_text">Torch OFF</string>
+    <string name="timer_running_status">Timer running...</string>
+    <string name="content_description_torch_icon">A torch or flashlight icon</string>
+    <string name="invalid_input_error">Please enter a valid number</string>
+    <string name="torch_activated_message">Torch has been turned on</string>
 </resources>
